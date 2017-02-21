@@ -15,11 +15,15 @@ ol li {
 
 h1 {
   font-size: 5.625rem; /* 90px / 16px */
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 53px;
+  text-decoration: underline;
+  font-weight: normal;
 }
 
 h3 {
@@ -31,6 +35,7 @@ h3 {
 
 a:link {
   color: rgb(255, 169, 73);
+  text-decoration: none;
 }
 
 a:visited {
@@ -74,7 +79,8 @@ a:focus {
   width: 60%;
 }
 
-.primary-content {
+.primary-content,
+.main-header {
   text-align: center;
 }
 
