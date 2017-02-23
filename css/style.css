@@ -37,6 +37,15 @@ img {
   margin-bottom: 20px;
 }
 
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -145,11 +154,11 @@ a:active {
 }
 
 .resorts {
-  float: left;
+  float: right;
 }
 
 .tips {
-  float: right;
+  float: left;
 }
 
 /* Float Clearfix ------------------ */
