@@ -152,7 +152,13 @@ a:active {
   float: right;
 }
 
+/* Float Clearfix ------------------ */
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
